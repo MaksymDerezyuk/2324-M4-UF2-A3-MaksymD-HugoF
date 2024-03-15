@@ -1,0 +1,321 @@
+/* CSS */
+
+/*FUENTE ESPECIAL*/
+@font-face {
+    font-family: 'Toxic';
+    src: url(../fonts/Toxia-OwOA.ttf) format(truetype);
+}
+
+/*BODY DE LA PRIMERA PAGINA*/
+.paginaInicio {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/fondo_inicial.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*TITULO DE LA PRIMERA PAGINA*/
+#tituloInicio {
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Toxic';
+}
+
+/*BOTON DE START DEL INICIO*/
+#botonIniciar {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#botonIniciar:hover {
+    background-color: #1e221f;
+}
+
+/*BOTON DE LA MUSICA*/
+#musicButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#musicButton {
+    background-color: #FF5733; /* Rojo cuando está apagado */
+}
+
+#musicButton:hover {
+    background-color: #FFA07A; /* Cambia de tono de rojo en hover */
+}
+
+#musicButton.on {
+    background-color: #2ECC71; /* Verde cuando está encendido */
+}
+
+#musicButton.on:hover {
+    background-color: #58D68D; /* Cambia de tono de verde en hover */
+}
+/*NOMBRE*/
+
+#formulario {
+    margin: 0 auto; /* Centra el formulario */
+    width: 300px; /* Ancho del formulario */
+    text-align: center; /* Centra el texto dentro del formulario */
+}
+#insertaNombre {
+    padding: 12px; /* Espaciado interno del campo de texto */
+    width: 100%; /* Ancho del campo de texto */
+    margin-bottom: 20px; /* Espacio entre el campo de texto y el botón */
+    box-sizing: border-box; /* Incluye el padding en el ancho del campo */
+    background-color: #1e221f;
+    font-size: 1em;
+    color: white;
+}
+#botonNombre {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/*HISTORIA*/
+
+#historia {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+#divHistoria {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.preg {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+#salirHotel {
+    background-image: url(../img/fondo1.jpg);
+}
+#pg2{
+    background-image: url(./interior-hospital.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    width: 100%;
+    height: 100%;
+}
+
+#boton1 {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#boton2 {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#boton3 {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#boton4 {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+
+#boton1:hover {
+    background-color: #2a312b; /* Cambia de tono de verde en hover */
+}
+#boton2:hover {
+    background-color: #2a312b; /* Cambia de tono de verde en hover */
+}
+#boton3:hover {
+    background-color: #2a312b; /* Cambia de tono de verde en hover */
+}
+#boton4:hover {
+    background-color: #2a312b; /* Cambia de tono de verde en hover */
+}
+
+.dosOpciones{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+#decision {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.paginaOpciones {
+    margin: 0;
+    padding-top: 4%;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/fondo_inicial.png);
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+}
+.Opciones {
+    display: flex;
+    padding-top: 5%;
+}
+
+#entrarBarrio {
+    background-image: url(../img/barrio.png);
+}
+
+#entrarHospital {
+    background-image: url(../img/hospital.png);
+}
+
+#entrarFarmacia {
+    background-image: url(../img/farmacia.png);
+}
+
+#entrarPiso {
+    background-image: url(../img/piso.png);
+}
+
+#entrarTWD {
+    background-image: url(../img/puertatwd.png);
+}
+
+#entrarMorgue {
+    background-image: url(../img/morgue.png);
+}
+
+#entrarQuirofano {
+    background-image: url(../img/quirofano.png);
+}
+
+#entrarPasillo {
+    background-image: url(../img/pasillo.png);
+}
+
+#EndingBody {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#badEndingTitle {
+    color: red;
+    font-size: 4em;
+    text-align: center;
+}
+
+#goodEndingTitle {
+    color: green;
+    font-size: 4em;
+    text-align: center;
+}
+
+#secretEndingTitle {
+    color: yellow;
+    font-size: 4em;
+    text-align: center;
+}
+.codigo {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una sola columna vertical */
+    align-items: center;
+}
+
+#textoCodigo {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#numero {
+    font-size: 2rem;
+}
+
+#enviar {
+    padding: 10px 20px;
+    font-size: 2em;
+    background-color: #4f5f52; 
+    color: white;
+    border: 2px solid #2a312b; 
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+#fondonegro {
+    background-color: black;
+    background-image: none;
+}
